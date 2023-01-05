@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import 'ds-components/HelloWorld.css'
-import HelloWorld from '~components/HelloWorld/HelloWorld.vue'
+import 'vite-test-publish-npm-hello-world/dist/style.css'
+import { HelloWorld }  from 'vite-test-publish-npm-hello-world'
 </script>
 
 <template>
@@ -28,7 +28,7 @@ import HelloWorld from '~components/HelloWorld/HelloWorld.vue'
     </a>
   </div>
 
-  <HelloWorld message="Vite + Vue" />
+  <HelloWorld message="Teste" />
 </template>
 
 <style scoped>

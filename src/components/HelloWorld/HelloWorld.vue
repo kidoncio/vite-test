@@ -7,13 +7,13 @@ type Props = {
   message: string
 }
 
-const message = defineProps<Props>()
+const props = defineProps<Props>()
 
-const count = ref(0)
+const count = ref<number>(0)
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
+  <h1>{{ props.message }}</h1>
 
   <div class="card">
     <button
